@@ -1,5 +1,5 @@
 # PCA: EXP-1  SUM ARRAY GPU
-<h3>NAME : Madhumithra P </h3>
+<h3>NAME : MADHUMITHRA P </h3>
 <h3>REGISTER NO : 212225230159</h3>
 <h3>EX.NO:1</h3>
 <h3>DATE: 22.10.2026</h3>
@@ -197,10 +197,10 @@ int main()
     return 0;
 }
 ```
-'''
+```
 !nvcc -O3 matrix_add.cu -o matrix_add
 !./matrix_add
-'''
+```
 ## OUTPUT:
 <img width="877" height="192" alt="Screenshot 2026-10-22 083038" src="https://github.com/user-attachments/assets/9d28dab5-5f5d-473b-8977-e7de3d53c085" />
 
