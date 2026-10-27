@@ -40,16 +40,16 @@ Google Colab with NVCC Compiler
 #include <sys/time.h>
 
 // CUDA error checking macro
-#define CHECK(call)                                                   
-{                                                                     
-    const cudaError_t error = call;                                   
-    if (error != cudaSuccess)                                         
-    {                                                                 
-        fprintf(stderr, "Error: %s:%d, ", __FILE__, __LINE__);        
-        fprintf(stderr, "code: %d, reason: %s\n",                    
-                error, cudaGetErrorString(error));                    
-        exit(1);                                                      
-    }                                                                 
+#define CHECK(call)                                                   \
+{                                                                     \
+    const cudaError_t error = call;                                   \
+    if (error != cudaSuccess)                                         \
+    {                                                                 \
+        fprintf(stderr, "Error: %s:%d, ", __FILE__, __LINE__);        \
+        fprintf(stderr, "code: %d, reason: %s\n",                    \
+                error, cudaGetErrorString(error));                    \
+        exit(1);                                                      \
+    }                                                                 \
 }
 
 // Timer function
@@ -198,8 +198,9 @@ int main()
 }
 ```
 ```
-!nvcc -O3 matrix_add.cu -o matrix_add
-!./matrix_add
+%%bash
+nvcc vector_add.cu -o vector_add
+./vector_add
 ```
 ## OUTPUT:
 <img width="296" height="143" alt="Screenshot 2026-10-27 141455" src="https://github.com/user-attachments/assets/abc57ab5-fd95-4699-9336-6c6a27919645" />
