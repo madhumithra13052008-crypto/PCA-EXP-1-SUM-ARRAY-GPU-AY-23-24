@@ -202,7 +202,8 @@ int main()
 !./matrix_add
 ```
 ## OUTPUT:
-<img width="552" height="87" alt="Screenshot 2026-10-27 140302" src="https://github.com/user-attachments/assets/838056fb-6453-4f5d-8df6-ca43d72c07d7" />
+<img width="296" height="143" alt="Screenshot 2026-10-27 141455" src="https://github.com/user-attachments/assets/abc57ab5-fd95-4699-9336-6c6a27919645" />
+
 
 
 
