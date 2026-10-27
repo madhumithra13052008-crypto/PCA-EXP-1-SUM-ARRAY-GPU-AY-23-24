@@ -202,7 +202,8 @@ int main()
 !./matrix_add
 ```
 ## OUTPUT:
-<img width="713" height="203" alt="WhatsApp Image 2026-10-23 at 9 00 17 PM" src="https://github.com/user-attachments/assets/2d8e1a9c-f514-4c86-92b2-1dc4f4e160aa" />
+<img width="552" height="87" alt="Screenshot 2026-10-27 140302" src="https://github.com/user-attachments/assets/838056fb-6453-4f5d-8df6-ca43d72c07d7" />
+
 
 
 
